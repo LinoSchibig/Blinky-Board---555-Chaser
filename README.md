@@ -28,5 +28,5 @@ The NE555 timer generates clock pulses that are sent to the CD4017 counter. Each
 A complete bill of materials with prices and links can be found in `bom.csv`.
 
 
-<img width="1174" height="701" alt="Screenshot_3D_View" src="https://github.com/user-attachments/assets/64ede4fa-df68-4c70-adb9-212a4db76818" />
+<img width="1267" height="796" alt="image" src="https://github.com/user-attachments/assets/894fe1ea-916a-46cb-8ef8-a9e1079b28f3" />
 
