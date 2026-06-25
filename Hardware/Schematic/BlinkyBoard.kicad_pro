@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Schematic.kicad_pro",
+    "filename": "BlinkyBoard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -508,7 +508,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/Lino Schibig/Projects/05_Electronics/02_StasisBeginnerProjects/01_Blinky_Board_-_555_Chasser/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -627,8 +627,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Schematic.kicad_sch",
-        "name": "Root",
+        "filename": "BlinkyBoard.kicad_sch",
+        "name": "BlinkyBoard",
         "uuid": "e450c1ed-4be3-46a4-909f-4fc08cf38141"
       }
     ],
