@@ -1,59 +1,47 @@
 # Blinky Board - 555 Chaser
 
 ## Description
-The Blinky Board is an LED chaser circuit developed for the Stasis High School Hardware Hackathon. It is based on a classic NE555 timer and CD4017 decade counter combination, creating a sequential LED animation effect.
+The Blinky Board is an LED chaser circuit developed for Stasis. It works with a NE555 timer and CD4017, creating a cicle of LEDs blinking.
 
-This project was chosen as a way to understand fundamental digital electronics and timing circuits through a hands-on PCB design process.
+I choose this project because it was recommeneded as beginner project
 
 ---
 
 ## Features
 - 8 sequential LEDs forming a chasing light pattern  
-- Adjustable speed using a 50k potentiometer  
-- Fully custom PCB designed in KiCad  
-- Simple through-hole construction for easy assembly and debugging  
+- Adjustable speed using a potentiometer  
+- Custom PCB designed in KiCad
 
 ---
 
 ## How It Works
-The NE555 timer operates in astable mode and generates a continuous square wave clock signal. This signal is fed into the CD4017 decade counter, which advances one output per pulse.
+The NE555 timer operates in astable mode and generates a continuous signal. This signal is fed into the CD4017, which gives one output per pulse.
 
-Each output activates a corresponding LED, creating a visible "running light" effect. The speed of the sequence can be controlled by adjusting the potentiometer, which changes the timing of the 555 oscillator.
+Each output activates a LED, creating a "running light" effect. The speed of the pulse can be controlled by adjusting the potentiometer, which changes the timing of the NE555 timer.
 
 ---
 
 ## Why I Built This Project
-I started this project to move beyond theoretical electronics and actually understand how timing circuits and counters behave in real hardware.
-
-I also wanted to learn how a full PCB design workflow works, from schematic creation to layout and production files.
+Since quite some time ago, I have been interested in electronics and robotics. I saw an ad on Instagram and thought I should give it a try. I learned how to use Stasis and KiCad and started this recommended beginner project.
 
 ---
 
 ## Difficulties
-- Understanding the correct wiring between the NE555 and CD4017 was initially confusing  
-- Debugging LED behavior when outputs didn’t match expected sequence  
-- Managing PCB layout constraints while keeping signal paths clean  
-- Fixing incorrect timing values caused by miscalculating capacitor/resistor combinations  
+- Understanding the correct wiring between the NE555 and CD4017 was confusing   
+- Managing PCB layout constraints while keeping signal paths clean   
 
 ---
 
 ## What I Learned
-- How an astable 555 timer generates clock signals  
-- How a CD4017 decade counter sequences outputs  
 - Basic PCB design principles in KiCad  
 - Importance of correct grounding and stable power routing  
-- How small component value changes affect timing behavior significantly  
 
 ---
 
-## Schematics & PCB Design
+## Schematic
 
 ### Schematic
-![Schematic](schematic.png)
-
-### PCB Layout
-![PCB Layout](pcb.png)
-
+<img width="1343" height="925" alt="Screenshot 2026-06-28 221641" src="https://github.com/user-attachments/assets/9aadf022-bb48-4322-bf45-ea1c14272e14" />
 ---
 
 ## Bill of Materials (BOM)
