@@ -1,0 +1,12 @@
+Description,Reference,Qty,Value,Footprint,Source,Price
+Unpolarized capacitor,C1,1,0.01 µF,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754,0.27
+Polarized capacitor,C2,1,1 µF,Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm,https://www.distrelec.ch/en/radial-electrolytic-capacitor-1uf-3ua-63v-17ma-wuerth-elektronik-860010772005/p/30438176,5.15
+Resistor,R2,1,470 Ω,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT470R/1741440,0.1
+Resistor,R1,1,1 kΩ,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314,0.1
+Johnson Counter (10 outputs),U1,1,CD4017,CD4017BE:DIP794W45P254L1969H508Q16,https://www.digikey.com/en/products/detail/texas-instruments/CD4017BE/67253,1.39
+Potentiometer,RV1,1,50 kΩ,Potentiometer_THT:Potentiometer_Vishay_T93YA_Vertical,https://www.digikey.com/en/products/detail/tt-electronics-bi/P120PK-Y25BR10K/5957454,1.78
+Generic connector (1×01 socket),J2,1,Conn_01x01_Socket,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,https://www.digikey.com/en/products/detail/harwin-inc/D01-9922046/3727867,6.15
+Generic connector (1×02 socket),J1,1,Conn_01x02_Socket,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,https://www.digikey.com/en/products/detail/harwin-inc/D01-9922046/3727867,-
+Light emitting diode,"D1, D2, D4, D5, D6, D7, D9, D10",8,LED,LED_THT:LED_D3.0mm,https://www.conrad.ch/de/p/tru-components-led-bedrahtet-5-mm-weiss-rund-5-mm-18000-mcd-20-20-ma-2377621.html,3.95
+Precision Timer (555 compatible),U2,1,NE555P,Package_DIP:DIP-8_W7.62mm,https://www.reichelt.com/ch/de/shop/produkt/timer-ic_typ_555_dip-8-13397,0.31
+,,,,,,19.2
