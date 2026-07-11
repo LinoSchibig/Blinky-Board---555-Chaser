@@ -44,17 +44,23 @@ Since quite some time ago, I have been interested in electronics and robotics. I
 <img width="1343" height="925" alt="Screenshot 2026-06-28 221641" src="https://github.com/user-attachments/assets/9aadf022-bb48-4322-bf45-ea1c14272e14" />
 ---
 
-## Bill of Materials (BOM)
+# BOM (Bill of Materials)
 
-| Component | Quantity | Supplier | Link |
-|----------|----------|----------|------|
-| NE555P Timer IC | 1 | DigiKey | https://www.digikey.com/en/products/detail/texas-instruments/NE555P/ |
-| CD4017BE Counter | 1 | DigiKey | https://www.digikey.com/en/products/detail/texas-instruments/CD4017BE/ |
-| LED (5mm) | 8 | Mouser | https://www.mouser.com/ |
-| Resistors (assorted) | ~10 | Local / DigiKey | https://www.digikey.com/ |
-| Capacitors | 2–3 | DigiKey | https://www.digikey.com/ |
-| 50k Potentiometer | 1 | DigiKey | https://www.digikey.com/ |
-| Pin Headers | 1 set | AliExpress / Mouser | https://www.mouser.com/ |
+This is the list of components used for the project.
+
+| Description | Reference | Qty | Value | Footprint | Source | Price |
+|-------------|-----------|-----|-------|-----------|--------|-------|
+| Unpolarized capacitor | C1 | 1 | 0.01 µF | Capacitor_THT:CP_Radial_D5.0mm_P2.00mm | DigiKey | $0.27 |
+| Polarized capacitor | C2 | 1 | 1 µF | Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm | Distrelec | CHF 4.61 |
+| Resistor | R2 | 1 | 470 Ω | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal | DigiKey | $0.10 |
+| Resistor | R1 | 1 | 1 kΩ | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal | DigiKey | $0.10 |
+| Johnson Counter (10 outputs) | U1 | 1 | CD4017BE | CD4017BE:DIP794W45P254L1969H508Q16 | DigiKey | $1.39 |
+| Potentiometer | RV1 | 1 | 50 kΩ | Potentiometer_THT:Potentiometer_Vishay_T93YA_Vertical | DigiKey | $18.78 |
+| Generic connector (1x01 socket) | J2 | 1 | Conn_01x01_Socket | Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical | DigiKey | $6.15 |
+| Generic connector (1x02 socket) | J1 | 1 | Conn_01x02_Socket | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical | DigiKey | $6.15 |
+| Light emitting diode | D1, D2, D4, D5, D6, D7, D9, D10 | 8 | LED | LED_THT:LED_D3.0mm | Conrad | $3.95 |
+| Precision Timer (555 compatible) | U2 | 1 | NE555P | Package_DIP:DIP-8_W7.62mm | Reichelt | $0.30 |
+
 
 ---
 
