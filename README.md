@@ -38,10 +38,18 @@ Since quite some time ago, I have been interested in electronics and robotics. I
 
 ---
 
-## Schematic
+## Images
 
 ### Schematic
 <img width="1343" height="925" alt="Screenshot 2026-06-28 221641" src="https://github.com/user-attachments/assets/9aadf022-bb48-4322-bf45-ea1c14272e14" />
+
+### PCB Design
+<img width="1050" height="635" alt="Screenshot 2026-07-14 152624" src="https://github.com/user-attachments/assets/559f7fdb-361f-45d9-beaf-377558cba7a7" />
+
+### 3D-View
+<img width="1267" height="796" alt="3D_View_Screenshot" src="https://github.com/user-attachments/assets/f7dab8cc-1e49-41ac-84bb-a4adace358f2" />
+
+
 ---
 
 # BOM (Bill of Materials)
